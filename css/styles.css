@@ -684,6 +684,24 @@ progress {
   margin-top: var(--bs-gutter-y);
 }
 
+.rowww {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(2.7 * var(--bs-gutter-x));
+}
+.rowww > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
 .col {
   flex: 1 0 0%;
 }
@@ -11014,7 +11032,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(33, 37, 41, 0.1) 0%, rgba(33, 37, 41, 0.1) 100%), url("../assets/img/bg1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11138,6 +11156,29 @@ body {
   }
 
 
+.blok4 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(90deg, rgba(6, 57, 112, 12) 0%, rgba(6, 57, 112, 12) 100%)
+}
+
+.contensec {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.gradi1 {
+  background: rgb(6,57,112);
+  background: linear-gradient(360deg, rgba(6,57,112,1) 0%, rgba(33,37,41,1) 100%);
+}
+
+.gradi2 {
+  background: rgb(6,57,112);
+  background: linear-gradient(360deg, rgba(6,57,112,1) 0%, rgba(19,19,22,1) 100%);
+}
+
+
 .logo:nth-child(1) {
   transition-delay: 200ms;
 }
@@ -11154,24 +11195,24 @@ body {
   transition-delay: 800ms;
 }
 
-.logo:nth-child(5) {
+.logoo:nth-child(1) {
   transition-delay: 200ms;
 }
 
-.logo:nth-child(6) {
-  transition-delay: 400ms;
+.logoo:nth-child(2) {
+  transition-delay: 350ms;
 }
 
-.logo:nth-child(7) {
-  transition-delay: 600ms;
+.logoo:nth-child(3) {
+  transition-delay: 500ms;
 }
 
-.logo:nth-child(8) {
+.logoo:nth-child(4) {
+  transition-delay: 650ms;
+}
+
+.logoo:nth-child(5) {
   transition-delay: 800ms;
-}
-
-.logo:nth-child(9) {
-  transition-delay: 200ms;
 }
 
 .bg-hmpt {
