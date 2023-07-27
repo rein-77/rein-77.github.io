@@ -11008,12 +11008,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #063970;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #155342;
   text-decoration: none;
 }
 
@@ -11231,6 +11231,7 @@ body {
 
 
 .wrapper {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11241,7 +11242,7 @@ body {
     padding: 10px 45px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 42px;
     color: white;
     background: #063970;
     transition: 1s;
@@ -11323,8 +11324,7 @@ path.two {
 
 
 .main {
-  margin-top: 70px;
-  margin-left: 520px;
+  margin: auto  ;
   width: 170px;
   height: 70px;
   font-weight: bold;
@@ -11339,11 +11339,16 @@ path.two {
   align-items: center;
   min-height: 20px;
 }
-aa {
+a {
+  text-decoration: none;
+}
+.btnmsuk{
+  padding: 25px;
+  display: block;
   position: absolute;
   text-decoration: none;
   color: #000;
-  z-index: 1000;
+  z-index: 11000;
 }
 .main::after {
   content: "";
